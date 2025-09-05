@@ -1,0 +1,8 @@
+{
+  "bindings": [
+    { "authLevel": "function", "type": "httpTrigger", "direction": "in",
+      "name": "Request", "methods": ["post","get"], "route": "HttpStart" },
+    { "type": "http", "direction": "out", "name": "Response" },
+    { "type": "durableClient", "direction": "in", "name": "starter" }
+  ]
+}
